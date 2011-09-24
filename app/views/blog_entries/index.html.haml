@@ -30,5 +30,5 @@
               \#{link_to "#{t("web-app-theme.delete", :default => "Delete")}", blog_entry_path(blog_entry), :method => :delete, :confirm => "#{t("web-app-theme.confirm", :default => "Are you sure?")}"}
       .actions-bar.wat-cf
         .actions
-        = will_paginate @blog_entries
+        = paginate @blog_entries
 - content_for :sidebar, render(:partial => 'sidebar')
