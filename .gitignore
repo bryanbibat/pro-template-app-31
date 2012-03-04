@@ -4,5 +4,6 @@ log/*.log
 tmp/
 .sass-cache/
 /public/system/*
+/public/assets/
 .*sw[a-z]
 *.un~
